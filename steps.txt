@@ -1,0 +1,22 @@
+composer create-project laravel/laravel lara_11_realestate
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install  >blade >no>1
+
+php artisan migrate
+
+php artisan make:seeder UsersTableSeeder
+
+ php artisan migrate:fresh --seed
+
+  php artisan make:controller AdminController
+
+  php artisan make:middleware Role 
+
+ to login with email and name and phone (loginRequest ,login.blade.php,)
+
+
+
+
+  
